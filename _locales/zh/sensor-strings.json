@@ -1,0 +1,13 @@
+{
+	"fourlineknobfollowsensor.LineFollower.S1_IN_S2_IN|block":"传感器1和传感器2在黑线内",
+	"fourlineknobfollowsensor.LineFollower.S1_IN_S2_OUT|block":"传感器1在黑线内，传感器2在黑线外",
+	"fourlineknobfollowsensor.LineFollower.S1_OUT_S2_IN|block":"传感器1在黑线外，传感器2在黑线内",
+	"fourlineknobfollowsensor.LineFollower.S1_OUT_S2_OUT|block":"传感器1和传感器2在黑线外",
+	"fourlineknobfollowsensor.LineFollowerSensors.S1|block":"传感器1",
+	"fourlineknobfollowsensor.LineFollowerSensors.S2|block":"传感器2",
+	"fourlineknobfollowsensor.LineFollowerSensors.S3|block":"传感器3",
+	"fourlineknobfollowsensor.LineFollowerSensors.S4|block":"传感器4",
+	"fourlineknobfollowsensor.LineColor.Black|block":"黑线",
+	"fourlineknobfollowsensor.LineColor.White|block":"白线",
+	"fourlineknobfollowsensor.line_followers|block": "四路旋钮巡线传感器|%lineFollowerSensor 检测到|%lineColor ?"
+}

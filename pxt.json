@@ -1,0 +1,18 @@
+{
+    "name": "nexbit",
+    "version": "0.0.1",
+    "description": "Extension for Hiwonder 4 knob line follow sensor",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/sensor-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
