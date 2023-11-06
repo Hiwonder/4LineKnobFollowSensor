@@ -9,5 +9,5 @@
 	"fourlineknobfollowsensor.LineFollowerSensors.S4|block":"传感器4",
 	"fourlineknobfollowsensor.LineColor.Black|block":"黑线",
 	"fourlineknobfollowsensor.LineColor.White|block":"白线",
-	"fourlineknobfollowsensor.line_followers|block": "四路旋钮巡线传感器|%lineFollowerSensor 检测到|%lineColor ?"
+	"fourlineknobfollowsensor.line_followers|block": "四路旋钮巡线传感器%lineFollowerSensor 检测到|%lineColor 引脚|%pin?"
 }

@@ -32,14 +32,29 @@ namespace fourlineknobfollowsensor {
         White
     }
 
-    //% weight=98 blockId=line_followers block="Line follower %lineFollowerSensor in %lineColor ?"
+    export enum SensorPins {
+        //% block="P0"
+        P0,
+        //% block="P1"
+        P1,
+        //% block="P2"
+        P2,
+        //% block="P3"
+        P3,
+        //% block="P4"
+        P4,
+        //% block="P10"
+        P10
+    }
+
+    //% weight=98 blockId=line_followers block="Line follower %lineFollowerSensor in %lineColor pin %pin?"
     //% inlineInputMode=inline
-    export function line_followers(lineFollowerSensor: LineFollowerSensors, lineColor: LineColor): boolean {
+    export function line_followers(lineFollowerSensor: LineFollowerSensors, lineColor: LineColor, pin: SensorPins): boolean {
         let status = false;
         let data = 0;
-        switch (lineFollowerSensor) {
-            case LineFollowerSensors.S1:
-                data = pins.digitalReadPin(DigitalPin.P14)
+        switch (pin) {
+            case SensorPins.P0:
+                data = pins.digitalReadPin(DigitalPin.P0)
                 if (data == 1) {
                     if (lineColor == LineColor.Black) {
                         status = true;
@@ -51,22 +66,7 @@ namespace fourlineknobfollowsensor {
                     }
                 }
                 break;
-
-            case LineFollowerSensors.S2:
-                data = pins.digitalReadPin(DigitalPin.P13)
-                if (data == 1) {
-                    if (lineColor == LineColor.Black) {
-                        status = true;
-                    }
-                }
-                else {
-                    if (lineColor == LineColor.White) {
-                        status = true;
-                    }
-                }
-                break;
-
-            case LineFollowerSensors.S3:
+            case SensorPins.P1:
                 data = pins.digitalReadPin(DigitalPin.P1)
                 if (data == 1) {
                     if (lineColor == LineColor.Black) {
@@ -79,9 +79,47 @@ namespace fourlineknobfollowsensor {
                     }
                 }
                 break;
-
-            case LineFollowerSensors.S4:
+            case SensorPins.P2:
                 data = pins.digitalReadPin(DigitalPin.P2)
+                if (data == 1) {
+                    if (lineColor == LineColor.Black) {
+                        status = true;
+                    }
+                }
+                else {
+                    if (lineColor == LineColor.White) {
+                        status = true;
+                    }
+                }
+                break;
+            case SensorPins.P3:
+                data = pins.digitalReadPin(DigitalPin.P3)
+                if (data == 1) {
+                    if (lineColor == LineColor.Black) {
+                        status = true;
+                    }
+                }
+                else {
+                    if (lineColor == LineColor.White) {
+                        status = true;
+                    }
+                }
+                break;
+            case SensorPins.P4:
+                data = pins.digitalReadPin(DigitalPin.P4)
+                if (data == 1) {
+                    if (lineColor == LineColor.Black) {
+                        status = true;
+                    }
+                }
+                else {
+                    if (lineColor == LineColor.White) {
+                        status = true;
+                    }
+                }
+                break;
+            case SensorPins.P10:
+                data = pins.digitalReadPin(DigitalPin.P10)
                 if (data == 1) {
                     if (lineColor == LineColor.Black) {
                         status = true;
