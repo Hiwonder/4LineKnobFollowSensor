@@ -1,4 +1,4 @@
-# NexBit
+# 4lineknobfollowsensor
 
 Extension for Hiwonder 4 knob line follow sensor
 
@@ -8,7 +8,7 @@ MIT
 
 ## Supported targets
 
-* for PXT/4LineKnobFollowSensor
+* for PXT/4lineknobfollowsensor
 (The metadata above is needed for package search.)
 
 ```package
