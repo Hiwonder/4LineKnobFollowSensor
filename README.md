@@ -1,4 +1,4 @@
-# 4lineknobfollowsensor
+# fourlineknobfollowsensor
 
 Extension for Hiwonder 4 knob line follow sensor
 
@@ -8,10 +8,10 @@ MIT
 
 ## Supported targets
 
-* for PXT/4lineknobfollowsensor
+* for PXT/fourlineknobfollowsensor
 (The metadata above is needed for package search.)
 
 ```package
-4LineKnobFollowSensor=github:hiwonder/4LineKnobFollowSensor
+fourlineknobfollowsensor=github:hiwonder/4LineKnobFollowSensor
 ```
 
